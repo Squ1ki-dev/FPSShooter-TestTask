@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FxTemporaire
+  - ship
+  - asteroid
   layers:
   - Default
   - TransparentFX
@@ -11,6 +14,7 @@ TagManager:
   - 
   - Water
   - UI
+  - Post Processing
   - 
   - 
   - 
@@ -30,13 +34,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - MovingPlatform
+  - VisualEffect
+  - Overlay
+  - SubCharacter
+  - Character
   m_SortingLayers:
   - name: Default
     uniqueID: 0
